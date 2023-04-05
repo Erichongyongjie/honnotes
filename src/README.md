@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 主页
-heroImage: /logo.svg
+heroImage: /logo.png
 heroText: Hon
 tagline: 我喝过你喝过的西北风，这算不算很穷
 actions:
