@@ -44,6 +44,7 @@ export default hopeTheme({
     config: {
       "/demo/encrypt.html": ["2023"],
       "/zh/demo/encrypt.html": ["2023"],
+      "/yishi/": ["2023"],
     },
   },
 
