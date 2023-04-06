@@ -41,6 +41,7 @@ export const zhNavbar = navbar([
   {
     text: "工具",
     icon: "note",
-    link: "http://dh.hon.ink",
+    link: "",
+    children: [{ text: "导航", icon: "more", link: "http://dh.hon.ink" }, { text: "早报", icon: "more", link: "http://news.icodeq.com" }, { text: "一文", icon: "more", link: "https://meiriyiwen.com/" }],
   },
 ]);
