@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -10,6 +11,11 @@ export default defineUserConfig({
       title: "Docs Hon",
       description: "A docs demo for vuepress-theme-hope",
     },
+  },
+
+  mdEnhancePlugin: {
+      // 启用自定义容器
+      container: true,
   },
 
   theme,
