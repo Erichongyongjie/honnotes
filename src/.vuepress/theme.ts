@@ -16,7 +16,7 @@ export default hopeTheme({
 
   repo: "Erichongyongjie/honnotes",
 
-  docsDir: "demo/theme-docs/src",
+  docsDir: "src",
 
   locales: {
     /**
