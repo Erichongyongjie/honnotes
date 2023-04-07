@@ -4,7 +4,7 @@ index: false
 icon: discover
 order: 3
 category:
-  - 说明
+  - 关于
 ---
 
 
