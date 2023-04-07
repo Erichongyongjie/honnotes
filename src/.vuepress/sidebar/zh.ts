@@ -3,22 +3,30 @@ import { sidebar } from "vuepress-theme-hope";
 export const zhSidebar = sidebar({
   "/": [
     "",
-    {
-      icon: "",
-      text: "📑 仪式",
-      prefix: "yishi/",
-      link: "yishi/",
+	{
+      icon: "page",
+      text: "配置",
+      prefix: "peizhi.md",
+      link: "peizhi.md",
       children: "structure",
     },
 	{
       icon: "",
-      text: "📄 说说",
-      prefix: "shuoshuo/",
-      link: "shuoshuo/",
+	  text: "📑 站长日常",
+      prefix: "richang/",
+      collapsible: true,
+      children: "structure",
+    },
+    
+	{
+      icon: "",
+      text: "📄 站友吐槽",
+      prefix: "tucao/",
+      link: "tucao/",
       children: "structure",
     },
 	{
-    text: "📔 个人笔记",
+    text: "📔 考试笔记",
     icon: "",
     prefix: "note/",
     link: "note/README.md",
@@ -55,6 +63,13 @@ export const zhSidebar = sidebar({
       icon: "",
 	  text: "🌗 生活记录",
       prefix: "shenghuo/",
+      collapsible: true,
+      children: "structure",
+    },
+	{
+      icon: "",
+	  text: "🏡 关于站点",
+      prefix: "about/",
       collapsible: true,
       children: "structure",
     },
