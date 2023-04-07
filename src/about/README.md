@@ -1,10 +1,8 @@
 ---
+article: false
 title: 关于我
-index: false
-icon: discover
+icon: enum
 order: 1
-category:
-  - 关于
 ---
 
 
