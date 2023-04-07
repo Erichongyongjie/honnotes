@@ -2,8 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   "/",
-  { text: "仪式", icon: "date", link: "/yishi/" },
-  { text: "说说", icon: "page", link: "/shuoshuo/" },
+  { text: "配置", icon: "date", link: "peizhi.md" },
   { text: "分享", icon: "discover", link: "/demo/" },
   {
     text: "笔记",
@@ -42,6 +41,6 @@ export const zhNavbar = navbar([
     text: "工具",
     icon: "note",
     link: "",
-    children: [{ text: "导航", icon: "more", link: "http://dh.hon.ink" }, { text: "早报", icon: "more", link: "http://news.icodeq.com" }, { text: "一文", icon: "more", link: "https://meiriyiwen.com/" }],
+	children: [{ text: "导航", icon: "more", link: "http://dh.hon.ink" }, { text: "早报", icon: "more", link: "http://news.icodeq.com" }, { text: "一文", icon: "more", link: "https://meiriyiwen.com/" }],
   },
 ]);
