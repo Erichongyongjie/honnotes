@@ -1,11 +1,10 @@
 ---
+article: false
 title: 更新说明
-index: false
-icon: discover
+icon: enum
 order: 3
-category:
-  - 关于
 ---
+
 
 
 ::: warning 说在前面
