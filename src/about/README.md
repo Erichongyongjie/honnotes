@@ -2,6 +2,7 @@
 title: 关于我
 index: false
 icon: discover
+order: 1
 category:
   - 关于
 ---
@@ -24,7 +25,6 @@ Hi，远方的朋友，很高兴能和你在这片小天地相遇。我是 **Eri
 
 更重要的是，**搜集、记录的“知识”并不属于你，只有经过消化、应用，才会成为自己的知识。**
 
-此前找了好多的版本去试着部署探索，前天（3月29日）在GitHub上偶然间看到[rockbenben](https://github.com/rockbenben/LearnData) 发布的“LearnData”，觉得是它没错了，就在3月31日晚着手部署了，结果发现部署是有一定的难度，后来在B站上看到了另一篇。
 
 ## 🚶 Personal introduction
 
@@ -84,17 +84,6 @@ Hi，远方的朋友，很高兴能和你在这片小天地相遇。我是 **Eri
 - 不管通过任何方式联系我请一次性把问题说完整。
 - 友人可以忽略以上所有条例。
 
-## 🧱 Note Structure
-
-- 置顶：日常习惯、随便说说（设计好、执行难）；
-- 读书笔记：考试学习、自我提升、心理学、技能、管理、论文畅谈；
-- 好物分享：教程分享、资源分享
-- 网络应用：系统问题、应用手册、页面开发、网站部署、代码开发、Linux 服务
-- 生活区：说明书、生活记录和小技巧；
-- 闲聊聊聊：（在设计中）
-- 工具导航：一些常用工具
-
-note.hon.ink
 
 ## 💻 Technology stack
 
@@ -113,13 +102,11 @@ Web服务器，VPS环境安装我也是很乐意帮忙的，只不过得有时�
 
 ## 💾 **Soft skills**
 
-- Google Search（面向 Google 编程 🤣）
-- GitHub（天天混迹 GitHub，然而基本都没参与到开源项目的开发中，都是写一些自己的项目 🤔）
+- GitHub（天天混迹 GitHub，却没参与开源项目的开发，都是写一些自己的项目 🤔）
 - GitHub Action（GitHub Action 好用，强推 😁）
-- DevOps
 - Windows/Linux[Arch Linux, Ubuntu, Alpine]（虽然我天天喷 Windows，但是它在使用体验上确实挺好的）
 - VSCode（曾经装了 150+ 的插件，插件狂魔就是我了 😅，不过现在很少用了）
-- Jetbrains IDEs（JB 的 IDE 我吹爆 😋）
+- ChatGPT（OpenAI产品 我吹爆 😋）
 
 ##  📝 Blog
 
@@ -144,7 +131,7 @@ Web服务器，VPS环境安装我也是很乐意帮忙的，只不过得有时�
 - 年轻就要多折腾，勇敢拼一把。
 - 年少时我们有足够多的理由去认认真真地喜欢另一个人，而长大后我们有同样多的理由去认认真真地辜负另一个人。
 
-## 🎯网易云歌单
+## 🎯 Music list
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="//music.163.com/outchain/player?type=0&amp;id=7040229450&amp;auto=0&amp;height=430" __idm_id__="71376897"></iframe>
 
@@ -158,19 +145,20 @@ Web服务器，VPS环境安装我也是很乐意帮忙的，只不过得有时�
 
 - 2023年3月18日，域名注册：hon.ink（腾讯云注册，Cf托管）
 - 2023年3月29日，搜集整理
-- 2023年4月3日，我的个人前端就正式上线了，采用 Git 做后台管理。
-- 
+- 2023年4月3日，敲定主题
+- 2023年4月6日，我的个人前端就正式上线了，采用 Git 做后台管理。
+- 2023年4月7日，优化第一波
 
 ##  💰 Donate
 
 救救快要破产的博主吧(*/ω＼*) （逃。
 
-您可以在 [爱发电](https://afdian.net/) 赞助我。
+您可以在 [赞赏码](http://1.15.246.139:1300/notes/img/zanshang.png) 赞助我。
 
 ## 📆Features
 
 - [ ] 优化各个专区（ing中）
 - [ ] 专题化，将长文分为几篇手册型文章，方便使用。
-- [ ] 「读书笔记」中后续会加入历史学、社会学、教育学
+- [ ] 「读书笔记」中后续会加入读者栏目
 - [ ] 样式调整：黑色主题调整深紫色；调整 TOC 规则。
 - [ ] 后续再增结构（ing中）
