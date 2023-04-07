@@ -1,7 +1,7 @@
 ---
-article: false
 title: 关于网站
-icon: enum
+index: false
+icon: discover
 order: 2
 category:
   - 关于
