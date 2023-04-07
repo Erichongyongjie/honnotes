@@ -1,11 +1,10 @@
 ---
+article: false
 title: 关于网站
-index: false
-icon: discover
+icon: enum
 order: 2
-category:
-  - 关于
 ---
+
 
 ## ✨ 初衷
 
