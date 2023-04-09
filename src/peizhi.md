@@ -30,14 +30,25 @@ category:
 ### 文字版
 
 1. **选择你需要的板块**（站长在此提供了基础板块，如果你想要自己的板块，可以联系站长增加！)
-2. **进入页面**![以xxx为例子](https://aj0.cn/wp-content/uploads/cltj/2022-01-12/a97bb511bfdc7932b0b09a2fba44acc9.jpg)
+
+2. **进入页面**(选择一个你想要编辑的）![以笔记-历史为例子](http://1.15.246.139:1300/notes/img/1.png)
+
 3. **点击在** [在 GitHub 上编辑此页](https://github.com/Erichongyongjie/honnotes/edit/main/src) **，进行编辑！**
-4. **提交等待更新即可**
 
+   ![在此页进行编辑](http://1.15.246.139:1300/notes/img/2.png)
 
+4. **点击Commit Changes进行提交**
 
+   
 
+   
+
+   ![点击commit changes](http://1.15.246.139:1300/notes/img/3.png)
+
+5. **提交等待更新即可**（大概5分钟左右刷新网页就好了）
 
 
 
 ### 视频版
+
+待出......
