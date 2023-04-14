@@ -20,4 +20,5 @@ order: 2
 
 ## 法理学
 
-诸葛亮，字孔明，号卧龙
+法理学 <Badge text="公共基础" type="warning" /> <Badge text="视频" color="grey" />
+<BiliBili bvid="BV1pL411f7Yz" />
