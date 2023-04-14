@@ -19,40 +19,20 @@ features:
     details: 这里有详细的说明
     link: /about/
 
-  - title: 日常习惯
-    icon: slides
-    details: 计划很美好
-    link: /yishi/
+  - title: 考试笔记
+    icon: comment
+    details: 历史、法律、管理
+    link: /note/gongji/
 
-  - title: 随便说说
+  - title: 读书心得
     icon: layout
-    details: 暂时就叫它随便说说吧
-    link: /shuoshuo/
+    details: 自我提升、社会人文
+    link: /guide/
 
   - title: 好物分享
     icon: info
     details: 资源分享、教程分享
     link: /demo/
-
-  - title: 个人笔记
-    icon: comment
-    details: 历史、法律、管理
-    link: /note/gongji/
-
-  - title: 社会科学
-    icon: blog
-    details: 大秦帝国、自我认知、影响力
-    link: /guide/shehui/
-
-  - title: 自我提升
-    icon: palette
-    details: 吃掉那只青蛙、写作
-    link: /guide/self/
-
-  - title: 闲聊聊聊
-    icon: contrast
-    details: 还在设计中
-    link: /liaoliao/
 
 
 copyright: false
