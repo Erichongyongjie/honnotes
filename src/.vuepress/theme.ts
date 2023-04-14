@@ -44,16 +44,64 @@ export default hopeTheme({
     config: {
       "/demo/encrypt.html": ["2023"],
       "/zh/demo/encrypt.html": ["2023"],
-      "/richang/": ["2023"],
+	  "/richang/": ["2023"],
+	  
     },
   },
 
   plugins: {
-    comment: {
-      // @ts-expect-error: You should generate and use your own comment service
-      provider: "Waline",
-    },
-
+    components: {
+    componentOptions: {
+        artPlayer: {
+          fastForward: true,
+          screenshot: true,
+        },
+      },
+      components: [
+        "ArtPlayer",
+        "AudioPlayer",
+        "Badge",
+        "BiliBili",
+        "PDF",
+        "SiteInfo",
+        "StackBlitz",
+        "VideoPlayer",
+        "XiGua",
+      ],
+      rootComponents: {
+        notice: [
+          {
+            path: "/",
+            title: "Notice Title",
+            content: "Notice Content",
+            actions: [
+              {
+                text: "更新记录",
+                link: "https://www.hon.ink/about/gengxin.html",
+                type: "primary",
+              },
+              { text: "返回" },
+            ],
+            fullscreen: true,
+          },
+          {
+            path: "/en/",
+            title: "Notice Title",
+            content: "Notice Content",
+            actions: [
+              {
+                text: "Primary Action",
+                link: "https://theme-hope.vuejs.press/",
+                type: "primary",
+              },
+              { text: "Default Action" },
+            ],
+            fullscreen: true,
+          },
+        ],
+      }, 
+   },
+    
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
@@ -96,7 +144,7 @@ export default hopeTheme({
       vPre: true,
       vuePlayground: true,
     },
-
+    
     // uncomment these if you want a pwa
     // pwa: {
     //   favicon: "/favicon.ico",
