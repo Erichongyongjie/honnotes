@@ -44,7 +44,7 @@ export default hopeTheme({
     config: {
       "/demo/encrypt.html": ["2023"],
       "/zh/demo/encrypt.html": ["2023"],
-	  "/richang/": ["2023"],
+      "/richang/": ["2023"],
 	  
     },
   },
@@ -73,7 +73,7 @@ export default hopeTheme({
           {
             path: "/",
             title: "Notice Title",
-            content: "Notice Content",
+            content: "欢迎来到我的站点",
             actions: [
               {
                 text: "更新记录",
