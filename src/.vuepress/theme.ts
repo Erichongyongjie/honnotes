@@ -72,7 +72,7 @@ export default hopeTheme({
         notice: [
           {
             path: "/",
-            title: "Notice Title",
+            title: "Docs Hon",
             content: "欢迎来到我的站点",
             actions: [
               {
@@ -86,12 +86,12 @@ export default hopeTheme({
           },
           {
             path: "/en/",
-            title: "Notice Title",
-            content: "Notice Content",
+            title: "Docs Hon",
+            content: "Welcome my site",
             actions: [
               {
                 text: "Primary Action",
-                link: "https://theme-hope.vuejs.press/",
+                link: "https://www.hon.ink/about/gengxin.html",
                 type: "primary",
               },
               { text: "Default Action" },
