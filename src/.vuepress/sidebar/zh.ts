@@ -17,14 +17,6 @@ export const zhSidebar = sidebar({
       collapsible: true,
       children: "structure",
     },
-    
-	{
-      icon: "",
-      text: "📄 站友吐槽",
-      prefix: "tucao/",
-      link: "tucao/",
-      children: "structure",
-    },
 	{
     text: "📔 考试笔记",
     icon: "",
