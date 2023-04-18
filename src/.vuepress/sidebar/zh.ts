@@ -12,8 +12,8 @@ export const zhSidebar = sidebar({
     },
 	{
       icon: "",
-	  text: "📑 站长日常",
-      prefix: "richang/",
+      text: "📄 藏诗词句",
+      prefix: "cang/",
       collapsible: true,
       children: "structure",
     },
