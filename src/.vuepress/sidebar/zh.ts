@@ -10,6 +10,13 @@ export const zhSidebar = sidebar({
       link: "peizhi.md",
       children: "structure",
     },
+        {
+      icon: "",
+	  text: "📑 站长日常",
+      prefix: "richang/",
+      collapsible: true,
+      children: "structure",
+    },
 	{
       icon: "",
       text: "📄 藏诗词句",
