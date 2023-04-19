@@ -1,7 +1,7 @@
 ---
 article: false
 title: 更新说明
-icon: enum
+icon: info
 order: 3
 ---
 
@@ -27,3 +27,21 @@ order: 3
 - **2023.04.17，网站优化进入公告**
 - **2023.04.18，网站上线“藏句阁”、“藏词阁”、“藏诗阁”**
 - **2023.04.19，优化导航栏、侧边栏**
+
+```card
+title: Mr.Hope
+desc: Where there is light, there is hope
+logo: https://mrhope.site/logo.svg
+link: https://mrhope.site
+color: rgba(253, 230, 138, 0.15)
+```
+
+```card:json
+{
+  "title": "Mr.Hope",
+  "desc": "Where there is light, there is hope",
+  "logo": "https://mrhope.site/logo.svg",
+  "link": "https://mrhope.site",
+  "color": "rgba(253, 230, 138, 0.15)"
+}
+```
