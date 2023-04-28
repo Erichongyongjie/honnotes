@@ -67,7 +67,26 @@ copyright: 无版权
 
 <BiliBili bvid="BV1j14y1w7tL" />
 
-
+<VideoPlayer
+  src="https://vd4.bdstatic.com/mda-nehenaf2753rah4c/sc/cae_h264/1652869587653035046/mda-nehenaf2753rah4c.mp4"
+  poster="https://i1.hdslb.com/bfs/archive/256c233c543e61256…1d.jpg@672w_378h_1c_!web-search-common-cover.webp"
+  title="乘风"
+  :tracks="[
+    {
+      default: true,
+      src: '/assets/subtitles/en.vtt',
+      kind: 'subtitles',
+      label: 'English',
+      srcLang: 'en',
+    },
+    {
+      src: '/assets/subtitles/fr.vtt',
+      kind: 'subtitles',
+      label: 'French',
+      srcLang: 'fr',
+    },
+  ]"
+/>
 
 
 
